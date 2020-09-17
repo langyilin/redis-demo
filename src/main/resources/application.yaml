@@ -1,0 +1,7 @@
+redis.host: localhost
+redis.pwd: rENmhKxkbsuHBPP
+spring:
+  redis:
+    host: ${redis.host}
+    password: ${redis.pwd}
+    port: 6379
